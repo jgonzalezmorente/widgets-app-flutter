@@ -30,7 +30,7 @@ class _HomeView extends StatelessWidget {
       itemCount: appMenuItems.length,      
       itemBuilder: ( context, index ) {
         final menuItem = appMenuItems[ index ];
-        return _CustomListTile(menuItem: menuItem);
+        return _CustomListTile( menuItem: menuItem );
       }
     );
   }
