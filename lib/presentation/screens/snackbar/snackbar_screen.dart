@@ -63,7 +63,6 @@ class SnackBarScreen extends StatelessWidget {
               onPressed: () => openDialog( context ), 
               child: const Text( 'Mostrar diálogo' )
             )
-
           ]
         ),
       ),
