@@ -77,7 +77,6 @@ class _InfiniteScrollScreenState extends State<InfiniteScrollScreen> {
   }
 
   void moveScrollToBottom() {
-
     if( scrollController.position.pixels + 100 <= scrollController.position.maxScrollExtent ) return;
 
     scrollController.animateTo(
@@ -85,9 +84,7 @@ class _InfiniteScrollScreenState extends State<InfiniteScrollScreen> {
       duration: const Duration( milliseconds: 300 ), 
       curve: Curves.fastOutSlowIn
     );
-
   }
-
 
   @override
   Widget build(BuildContext context) {
